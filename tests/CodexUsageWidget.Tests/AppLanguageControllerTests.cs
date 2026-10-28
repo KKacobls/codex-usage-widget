@@ -49,6 +49,28 @@ public sealed class AppLanguageControllerTests : IDisposable
     }
 
     [Fact]
+    public void TraditionalChinesePreferenceUsesTraditionalResources()
+    {
+        var controller = new AppLanguageController(
+            LanguagePreference.TraditionalChinese,
+            CultureInfo.GetCultureInfo("en-US"));
+
+        Assert.Equal("zh-TW", Strings.Current.Culture.Name);
+        Assert.Equal("設定", Strings.Get("Common_Settings"));
+    }
+
+    [Fact]
+    public void SystemLanguageUsesTraditionalChineseForTaiwan()
+    {
+        var controller = new AppLanguageController(
+            LanguagePreference.System,
+            CultureInfo.GetCultureInfo("zh-TW"));
+
+        Assert.Equal(LanguagePreference.TraditionalChinese, controller.EffectiveLanguage);
+        Assert.Equal("zh-TW", Strings.Current.Culture.Name);
+    }
+
+    [Fact]
     public void ManualPreferenceFormatsVisibleDatesUsingSelectedLanguage()
     {
         CultureInfo.CurrentCulture = CultureInfo.GetCultureInfo("en-US");
