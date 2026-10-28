@@ -94,7 +94,9 @@ public partial class SettingsWindow : Window
             ? LanguagePreference.English
             : SimplifiedChineseLanguageOption.IsChecked == true
                 ? LanguagePreference.SimplifiedChinese
-                : LanguagePreference.System;
+                : TraditionalChineseLanguageOption.IsChecked == true
+                    ? LanguagePreference.TraditionalChinese
+                    : LanguagePreference.System;
 
     public TimeFormatPreference SelectedTimeFormat =>
         TwentyFourHourTimeOption.IsChecked == true
@@ -159,6 +161,8 @@ public partial class SettingsWindow : Window
         EnglishLanguageOption.IsChecked = preference == LanguagePreference.English;
         SimplifiedChineseLanguageOption.IsChecked =
             preference == LanguagePreference.SimplifiedChinese;
+        TraditionalChineseLanguageOption.IsChecked =
+            preference == LanguagePreference.TraditionalChinese;
         _suppressChangeEvents = previousSuppression;
     }
 

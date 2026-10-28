@@ -334,6 +334,18 @@
                                        Style="{StaticResource SupportingText}" />
                         </StackPanel>
                     </RadioButton>
+                    <RadioButton x:Name="TraditionalChineseLanguageOption"
+                                 GroupName="Language"
+                                 AutomationProperties.Name="{localization:Loc Settings_Language_TraditionalChineseAutomation}"
+                                 Checked="LanguageOption_OnChecked"
+                                 Style="{StaticResource SettingsOptionCard}">
+                        <StackPanel VerticalAlignment="Center">
+                            <TextBlock Text="{localization:Loc Settings_Language_TraditionalChinese}" FontWeight="SemiBold" />
+                            <TextBlock Text="{localization:Loc Settings_Language_TraditionalChineseDescription}"
+                                       Margin="0,3,0,0"
+                                       Style="{StaticResource SupportingText}" />
+                        </StackPanel>
+                    </RadioButton>
                 </StackPanel>
 
                 <StackPanel Margin="0,18,0,14">
