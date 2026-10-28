@@ -140,9 +140,9 @@
   <data name="Settings_DisplayedLimit_MostConstrainedAutomation" xml:space="preserve"><value>Display most constrained limit</value></data>
   <data name="Settings_SectionFeatures" xml:space="preserve"><value>FEATURES</value></data>
   <data name="Settings_Language_Title" xml:space="preserve"><value>Language</value></data>
-  <data name="Settings_Language_Description" xml:space="preserve"><value>Choose English or Simplified Chinese, or let Windows decide.</value></data>
+  <data name="Settings_Language_Description" xml:space="preserve"><value>Choose English, Simplified Chinese, or Traditional Chinese, or let Windows choose automatically.</value></data>
   <data name="Settings_Language_System" xml:space="preserve"><value>Use Windows setting</value></data>
-  <data name="Settings_Language_SystemDescription" xml:space="preserve"><value>Uses Simplified Chinese when Windows does. Otherwise, uses English.</value></data>
+  <data name="Settings_Language_SystemDescription" xml:space="preserve"><value>Use the Windows display language when supported, otherwise use English.</value></data>
   <data name="Settings_Language_SystemAutomation" xml:space="preserve"><value>Use Windows language</value></data>
   <data name="Settings_Language_English" xml:space="preserve"><value>English</value></data>
   <data name="Settings_Language_EnglishDescription" xml:space="preserve"><value>Always use English</value></data>
@@ -223,4 +223,7 @@
   <data name="Taskbar_UsageUnavailable" xml:space="preserve"><value>Codex usage is currently unavailable.</value></data>
   <data name="Taskbar_Remaining" xml:space="preserve"><value>{0}: {1}% remaining</value></data>
   <data name="Taskbar_RemainingWithReset" xml:space="preserve"><value>{0}: {1}% remaining · resets {2}</value></data>
+  <data name="Settings_Language_TraditionalChinese" xml:space="preserve"><value>Traditional Chinese (Taiwan)</value></data>
+  <data name="Settings_Language_TraditionalChineseDescription" xml:space="preserve"><value>Always use Traditional Chinese</value></data>
+  <data name="Settings_Language_TraditionalChineseAutomation" xml:space="preserve"><value>Use Traditional Chinese</value></data>
 </root>
