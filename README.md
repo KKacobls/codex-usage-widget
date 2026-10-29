@@ -1,6 +1,6 @@
 # Codex Usage Widget
 
-English | [简体中文](README.zh-CN.md)
+English | [简体中文](README.zh-CN.md) | [繁體中文](README.zh-TW.md)
 
 See the Codex limits available to your account, including 5-hour and weekly windows,
 without opening a browser. Codex Usage Widget runs locally on Windows and reads usage
@@ -41,8 +41,8 @@ of `codex.cmd` or `codex.exe`.
   including credits, spend controls, earned-reset expiration and redemption, token activity,
   and model-specific limits when Codex returns them
 - System, light, and dark themes with five preset accent colors selected from Settings
-- Automatic Windows-language selection with English fallback, plus English and Simplified
-  Chinese overrides in Settings
+- Automatic Windows-language selection with English fallback, plus English, Simplified
+  Chinese, and Traditional Chinese overrides in Settings
 - Windows regional, 24-hour, and 12-hour time formats selected from Settings
 - A movable, always-on-top desktop widget and a compact label beside the notification area
 - Live task activity dots based on official local Codex lifecycle hooks

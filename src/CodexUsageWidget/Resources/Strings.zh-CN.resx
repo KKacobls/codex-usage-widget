@@ -140,9 +140,9 @@
   <data name="Settings_DisplayedLimit_MostConstrainedAutomation" xml:space="preserve"><value>显示剩余额度最少的限制</value></data>
   <data name="Settings_SectionFeatures" xml:space="preserve"><value>功能</value></data>
   <data name="Settings_Language_Title" xml:space="preserve"><value>语言</value></data>
-  <data name="Settings_Language_Description" xml:space="preserve"><value>选择英语或简体中文，也可让 Windows 自动选择。</value></data>
+  <data name="Settings_Language_Description" xml:space="preserve"><value>选择英语、简体中文或繁体中文，也可让 Windows 自动选择。</value></data>
   <data name="Settings_Language_System" xml:space="preserve"><value>跟随 Windows</value></data>
-  <data name="Settings_Language_SystemDescription" xml:space="preserve"><value>Windows 为简体中文时使用简体中文，否则使用英语。</value></data>
+  <data name="Settings_Language_SystemDescription" xml:space="preserve"><value>Windows 使用简体或繁体中文时跟随对应语言，否则使用英语。</value></data>
   <data name="Settings_Language_SystemAutomation" xml:space="preserve"><value>跟随 Windows 显示语言</value></data>
   <data name="Settings_Language_English" xml:space="preserve"><value>English</value></data>
   <data name="Settings_Language_EnglishDescription" xml:space="preserve"><value>始终使用英语</value></data>
@@ -223,4 +223,7 @@
   <data name="Taskbar_UsageUnavailable" xml:space="preserve"><value>Codex 用量当前不可用。</value></data>
   <data name="Taskbar_Remaining" xml:space="preserve"><value>{0}：剩余 {1}%</value></data>
   <data name="Taskbar_RemainingWithReset" xml:space="preserve"><value>{0}：剩余 {1}% · {2} 重置</value></data>
+  <data name="Settings_Language_TraditionalChinese" xml:space="preserve"><value>繁体中文（台湾）</value></data>
+  <data name="Settings_Language_TraditionalChineseDescription" xml:space="preserve"><value>始终使用繁体中文</value></data>
+  <data name="Settings_Language_TraditionalChineseAutomation" xml:space="preserve"><value>使用繁体中文</value></data>
 </root>

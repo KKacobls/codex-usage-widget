@@ -13,17 +13,21 @@ public sealed partial class LocalizationResourceTests
         typeof(Strings).Assembly);
 
     [Fact]
-    public void EnglishAndSimplifiedChineseHaveMatchingKeysAndPlaceholders()
+    public void AllSupportedLanguagesHaveMatchingKeysAndPlaceholders()
     {
         var english = ReadResources(CultureInfo.InvariantCulture);
-        var chinese = ReadResources(CultureInfo.GetCultureInfo("zh-CN"));
+        var simplified = ReadResources(CultureInfo.GetCultureInfo("zh-CN"));
+        var traditional = ReadResources(CultureInfo.GetCultureInfo("zh-TW"));
 
-        Assert.Equal(english.Keys.Order(), chinese.Keys.Order());
-        foreach (var key in english.Keys)
+        foreach (var translated in new[] { simplified, traditional })
         {
-            Assert.Equal(
-                ReadPlaceholders(english[key]),
-                ReadPlaceholders(chinese[key]));
+            Assert.Equal(english.Keys.Order(), translated.Keys.Order());
+            foreach (var key in english.Keys)
+            {
+                Assert.Equal(
+                    ReadPlaceholders(english[key]),
+                    ReadPlaceholders(translated[key]));
+            }
         }
     }
 
@@ -33,6 +37,9 @@ public sealed partial class LocalizationResourceTests
         Assert.Equal(
             "设置",
             Resources.GetString("Common_Settings", CultureInfo.GetCultureInfo("zh-CN")));
+        Assert.Equal(
+            "設定",
+            Resources.GetString("Common_Settings", CultureInfo.GetCultureInfo("zh-TW")));
         Assert.Equal(
             "Settings",
             Resources.GetString("Common_Settings", CultureInfo.GetCultureInfo("fr-FR")));

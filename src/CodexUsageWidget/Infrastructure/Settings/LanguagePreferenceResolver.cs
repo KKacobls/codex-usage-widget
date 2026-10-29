@@ -4,27 +4,26 @@ namespace CodexUsageWidget.Infrastructure.Settings;
 
 public static class LanguagePreferenceResolver
 {
-    public static LanguagePreference Resolve(
-        LanguagePreference preference,
-        CultureInfo uiCulture) => preference switch
-        {
-            LanguagePreference.English => LanguagePreference.English,
-            LanguagePreference.SimplifiedChinese => LanguagePreference.SimplifiedChinese,
-            _ => IsSimplifiedChinese(uiCulture)
-                ? LanguagePreference.SimplifiedChinese
-                : LanguagePreference.English
-        };
-
-    private static bool IsSimplifiedChinese(CultureInfo culture)
+    public static LanguagePreference Resolve(LanguagePreference preference, CultureInfo uiCulture)
     {
-        for (var current = culture; !string.IsNullOrEmpty(current.Name); current = current.Parent)
+        if (preference != LanguagePreference.System)
         {
-            if (string.Equals(current.Name, "zh-Hans", StringComparison.OrdinalIgnoreCase))
-            {
-                return true;
-            }
+            return preference;
         }
 
-        return false;
+        for (var current = uiCulture; !string.IsNullOrEmpty(current.Name); current = current.Parent)
+        {
+            if (Matches(current.Name, "zh-Hant", "zh-TW", "zh-HK", "zh-MO"))
+                return LanguagePreference.TraditionalChinese;
+
+            if (Matches(current.Name, "zh-Hans", "zh-CN", "zh-SG"))
+                return LanguagePreference.SimplifiedChinese;
+        }
+
+        return LanguagePreference.English;
     }
+
+    private static bool Matches(string name, params string[] supportedCultures) =>
+        supportedCultures.Any(supported =>
+            string.Equals(name, supported, StringComparison.OrdinalIgnoreCase));
 }

@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms</value></resheader>
+  <data name="App_Name" xml:space="preserve"><value>Codex 額度小工具</value></data>
+  <data name="App_MainTitle" xml:space="preserve"><value>Codex 額度</value></data>
+  <data name="App_InstallFailure" xml:space="preserve"><value>Codex 額度小工具無法為目前使用者完成安裝。{0}</value></data>
+  <data name="App_StartupFailure" xml:space="preserve"><value>Codex 額度小工具無法啟動。請查看以下資料夾中的日誌：{0}</value></data>
+  <data name="Common_Available" xml:space="preserve"><value>可用</value></data>
+  <data name="Common_Cancel" xml:space="preserve"><value>取消</value></data>
+  <data name="Common_CheckAgain" xml:space="preserve"><value>重新檢查</value></data>
+  <data name="Common_Close" xml:space="preserve"><value>關閉</value></data>
+  <data name="Common_Exit" xml:space="preserve"><value>結束程式</value></data>
+  <data name="Common_NoneAvailable" xml:space="preserve"><value>目前沒有可用額度</value></data>
+  <data name="Common_Refresh" xml:space="preserve"><value>重新整理</value></data>
+  <data name="Common_Settings" xml:space="preserve"><value>設定</value></data>
+  <data name="Common_Unlimited" xml:space="preserve"><value>不限量</value></data>
+  <data name="Main_ActivityRunning" xml:space="preserve"><value>Codex 任務正在執行</value></data>
+  <data name="Main_RefreshUsage" xml:space="preserve"><value>重新整理額度</value></data>
+  <data name="Main_ShowCompact" xml:space="preserve"><value>顯示精簡模式</value></data>
+  <data name="Main_ShowDetails" xml:space="preserve"><value>顯示詳細資訊</value></data>
+  <data name="Main_ToggleLayout" xml:space="preserve"><value>切換小工具版面配置</value></data>
+  <data name="Main_UseTaskbarLabel" xml:space="preserve"><value>使用工作列標籤</value></data>
+  <data name="Main_StartupPreferenceError" xml:space="preserve"><value>無法更新開機自動啟動設定。</value></data>
+  <data name="Main_UpdateOpenError" xml:space="preserve"><value>Windows 無法開啟小工具的發行版本頁面。</value></data>
+  <data name="Status_Connecting" xml:space="preserve"><value>正在連接…</value></data>
+  <data name="Status_WaitingForCodex" xml:space="preserve"><value>正在等待 Codex</value></data>
+  <data name="Status_LocalWaiting" xml:space="preserve"><value>僅限本機 · 等待同步</value></data>
+  <data name="Status_Offline" xml:space="preserve"><value>離線</value></data>
+  <data name="Status_LocalRetry" xml:space="preserve"><value>僅限本機 · 請按重新整理後再試</value></data>
+  <data name="Status_Syncing" xml:space="preserve"><value>正在同步…</value></data>
+  <data name="Status_LivePlan" xml:space="preserve"><value>即時 · {0}</value></data>
+  <data name="Status_HeadlineRemaining" xml:space="preserve"><value>剩餘 {0}</value></data>
+  <data name="Status_LocalUpdated" xml:space="preserve"><value>僅限本機 · 更新於 {0}</value></data>
+  <data name="Status_NoLimits" xml:space="preserve"><value>Codex 沒有回傳訂閱額度限制。請先執行 codex login。</value></data>
+  <data name="Error_CliNotFound" xml:space="preserve"><value>在 PATH 中找不到 Codex CLI。</value></data>
+  <data name="Error_LoginRequired" xml:space="preserve"><value>請執行 codex login，然後重新整理。</value></data>
+  <data name="Error_ResponseTimeout" xml:space="preserve"><value>Codex 回應逾時。</value></data>
+  <data name="Error_Unexpected" xml:space="preserve"><value>無法讀取 Codex 用量。{0}</value></data>
+  <data name="Warning_WorkspaceCreditsDepleted" xml:space="preserve"><value>工作區額度已用完。</value></data>
+  <data name="Warning_WorkspaceUsageLimitReached" xml:space="preserve"><value>已達工作區用量上限。</value></data>
+  <data name="Warning_UsageLimitReached" xml:space="preserve"><value>已達 Codex 額度限制。</value></data>
+  <data name="Warning_SpendControlReached" xml:space="preserve"><value>已達到個人消費限制。</value></data>
+  <data name="Usage_FiveHourLimit" xml:space="preserve"><value>5 小時額度</value></data>
+  <data name="Usage_WeeklyLimit" xml:space="preserve"><value>每週額度</value></data>
+  <data name="Usage_DayLimit" xml:space="preserve"><value>{0} 天限制</value></data>
+  <data name="Usage_HourLimit" xml:space="preserve"><value>{0} 小時限制</value></data>
+  <data name="Usage_MinuteLimit" xml:space="preserve"><value>{0} 分鐘限制</value></data>
+  <data name="Usage_PrimaryLimit" xml:space="preserve"><value>主要限制</value></data>
+  <data name="Usage_SecondaryLimit" xml:space="preserve"><value>次要限制</value></data>
+  <data name="Usage_UsedPercent" xml:space="preserve"><value>已使用 {0}%</value></data>
+  <data name="Usage_RemainingPercent" xml:space="preserve"><value>剩餘 {0}%</value></data>
+  <data name="Usage_ResetUnavailable" xml:space="preserve"><value>暫無重置時間</value></data>
+  <data name="Usage_ResetsNow" xml:space="preserve"><value>現在重置</value></data>
+  <data name="Usage_ResetsInHours" xml:space="preserve"><value>{0} 小時後重置 · {1}</value></data>
+  <data name="Usage_ResetsAt" xml:space="preserve"><value>{0} 重置</value></data>
+  <data name="Usage_CreditsRemaining" xml:space="preserve"><value>剩餘 {0}</value></data>
+  <data name="Usage_ChatGptCredits" xml:space="preserve"><value>ChatGPT 額度</value></data>
+  <data name="Usage_IndividualSpendLimit" xml:space="preserve"><value>個人消費限制</value></data>
+  <data name="Usage_SpendLimitValue" xml:space="preserve"><value>已使用 {0} / {1} · 剩餘 {2}%</value></data>
+  <data name="Usage_SpendLimitResets" xml:space="preserve"><value>消費限制重置時間</value></data>
+  <data name="Usage_RateLimitResets" xml:space="preserve"><value>額度重置券</value></data>
+  <data name="Usage_CountAvailable" xml:space="preserve"><value>可用 {0} 張</value></data>
+  <data name="Usage_ResetNextExpires" xml:space="preserve"><value>下一張重置券將於 {0:M月d日} {1} 到期</value></data>
+  <data name="Usage_ResetExpires" xml:space="preserve"><value>到期時間：{0:M月d日} {1}</value></data>
+  <data name="Usage_ResetExpirationUnavailable" xml:space="preserve"><value>無法取得到期時間</value></data>
+  <data name="Usage_UseReset" xml:space="preserve"><value>使用重置券</value></data>
+  <data name="Usage_UseNextReset" xml:space="preserve"><value>使用下一張重置券</value></data>
+  <data name="Usage_ResetExpandTooltip" xml:space="preserve"><value>檢視可用重置券</value></data>
+  <data name="Usage_ResetCollapseTooltip" xml:space="preserve"><value>收合重置券清單</value></data>
+  <data name="Usage_ResetConfirmTitle" xml:space="preserve"><value>要使用這張額度重置券嗎？</value></data>
+  <data name="Usage_ResetConfirmKnown" xml:space="preserve"><value>這張重置券將於 {0:M月d日} {1} 到期。它會套用至符合資格的 Codex 額度限制，使用後無法復原。</value></data>
+  <data name="Usage_ResetConfirmUnknownExpiration" xml:space="preserve"><value>這張重置券會套用至符合資格的 Codex 額度限制，使用後無法復原。</value></data>
+  <data name="Usage_ResetConfirmNext" xml:space="preserve"><value>Codex 會選擇下一張可用的重置券，並套用至符合資格的額度限制。使用後無法復原。</value></data>
+  <data name="Usage_ResetNothingToReset" xml:space="preserve"><value>目前沒有符合資格、可重置的 Codex 額度限制，因此尚未使用重置券。</value></data>
+  <data name="Usage_ResetNoCredit" xml:space="preserve"><value>這張額度重置券已無法使用。</value></data>
+  <data name="Usage_ResetFailure" xml:space="preserve"><value>無法使用額度重置券：{0}</value></data>
+  <data name="Usage_SectionOverview" xml:space="preserve"><value>總覽</value></data>
+  <data name="Usage_SectionCreditsLimits" xml:space="preserve"><value>額度與限制</value></data>
+  <data name="Usage_SectionTokenActivity" xml:space="preserve"><value>Token 使用狀況</value></data>
+  <data name="Usage_NotQuotaConsumption" xml:space="preserve"><value>不代表額度消耗量</value></data>
+  <data name="Usage_SectionModelLimits" xml:space="preserve"><value>特定模型限制</value></data>
+  <data name="Token_Lifetime" xml:space="preserve"><value>累計 Token</value></data>
+  <data name="Token_PeakDaily" xml:space="preserve"><value>單日 Token 峰值</value></data>
+  <data name="Token_LongestTurn" xml:space="preserve"><value>最長任務時長</value></data>
+  <data name="Token_CurrentStreak" xml:space="preserve"><value>目前連續天數</value></data>
+  <data name="Token_LongestStreak" xml:space="preserve"><value>最長連續天數</value></data>
+  <data name="Token_Days" xml:space="preserve"><value>{0} 天</value></data>
+  <data name="Token_Count" xml:space="preserve"><value>{0} Token</value></data>
+  <data name="Token_ChartPeak" xml:space="preserve"><value>圖表峰值的 {0}%</value></data>
+  <data name="Token_DurationHoursMinutes" xml:space="preserve"><value>{0} 小時 {1} 分鐘</value></data>
+  <data name="Token_DurationMinutes" xml:space="preserve"><value>{0} 分鐘</value></data>
+  <data name="Settings_Description" xml:space="preserve"><value>設定 Codex 額度小工具的外觀與操作方式。</value></data>
+  <data name="Settings_SectionGeneral" xml:space="preserve"><value>一般</value></data>
+  <data name="Settings_StartWithWindows" xml:space="preserve"><value>開機自動啟動</value></data>
+  <data name="Settings_StartWithWindowsDescription" xml:space="preserve"><value>登入 Windows 後啟動小工具</value></data>
+  <data name="Settings_Theme_Title" xml:space="preserve"><value>佈景主題</value></data>
+  <data name="Settings_Theme_Description" xml:space="preserve"><value>跟隨 Windows 佈景主題，或選擇固定的主題。</value></data>
+  <data name="Settings_Theme_System" xml:space="preserve"><value>跟隨 Windows</value></data>
+  <data name="Settings_Theme_SystemDescription" xml:space="preserve"><value>隨 Windows 應用主題切換</value></data>
+  <data name="Settings_Theme_SystemAutomation" xml:space="preserve"><value>使用 Windows 主題</value></data>
+  <data name="Settings_Theme_Light" xml:space="preserve"><value>淺色</value></data>
+  <data name="Settings_Theme_LightDescription" xml:space="preserve"><value>淺色介面和深色文字</value></data>
+  <data name="Settings_Theme_LightAutomation" xml:space="preserve"><value>使用淺色主題</value></data>
+  <data name="Settings_Theme_Dark" xml:space="preserve"><value>深色</value></data>
+  <data name="Settings_Theme_DarkDescription" xml:space="preserve"><value>深色介面和淺色文字</value></data>
+  <data name="Settings_Theme_DarkAutomation" xml:space="preserve"><value>使用深色主題</value></data>
+  <data name="Settings_Accent_Title" xml:space="preserve"><value>強調色</value></data>
+  <data name="Settings_Accent_Blue" xml:space="preserve"><value>藍色</value></data>
+  <data name="Settings_Accent_Violet" xml:space="preserve"><value>紫色</value></data>
+  <data name="Settings_Accent_Teal" xml:space="preserve"><value>青色</value></data>
+  <data name="Settings_Accent_Emerald" xml:space="preserve"><value>翠綠色</value></data>
+  <data name="Settings_Accent_Pink" xml:space="preserve"><value>粉色</value></data>
+  <data name="Settings_Accent_Automation" xml:space="preserve"><value>使用{0}強調色</value></data>
+  <data name="Settings_Accent_BlueAutomation" xml:space="preserve"><value>使用藍色強調色</value></data>
+  <data name="Settings_Accent_VioletAutomation" xml:space="preserve"><value>使用紫色強調色</value></data>
+  <data name="Settings_Accent_TealAutomation" xml:space="preserve"><value>使用青色強調色</value></data>
+  <data name="Settings_Accent_EmeraldAutomation" xml:space="preserve"><value>使用翠綠色強調色</value></data>
+  <data name="Settings_Accent_PinkAutomation" xml:space="preserve"><value>使用粉色強調色</value></data>
+  <data name="Settings_Layout_Title" xml:space="preserve"><value>小工具版面配置</value></data>
+  <data name="Settings_Layout_Description" xml:space="preserve"><value>選擇桌面小工具要顯示多少資訊。</value></data>
+  <data name="Settings_Layout_Compact" xml:space="preserve"><value>精簡</value></data>
+  <data name="Settings_Layout_CompactDescription" xml:space="preserve"><value>快速查看額度摘要</value></data>
+  <data name="Settings_Layout_CompactAutomation" xml:space="preserve"><value>使用精簡版面配置</value></data>
+  <data name="Settings_Layout_Detailed" xml:space="preserve"><value>詳細</value></data>
+  <data name="Settings_Layout_DetailedDescription" xml:space="preserve"><value>顯示完整額度明細</value></data>
+  <data name="Settings_Layout_DetailedAutomation" xml:space="preserve"><value>使用詳情版面配置</value></data>
+  <data name="Settings_SectionUsage" xml:space="preserve"><value>額度</value></data>
+  <data name="Settings_DisplayedLimit_Title" xml:space="preserve"><value>主要顯示額度</value></data>
+  <data name="Settings_DisplayedLimit_Description" xml:space="preserve"><value>選擇小工具、工作列標籤與系統匣圖示要顯示的額度限制。</value></data>
+  <data name="Settings_DisplayedLimit_FiveHourDescription" xml:space="preserve"><value>顯示帳戶整體 5 小時額度窗口</value></data>
+  <data name="Settings_DisplayedLimit_FiveHourAutomation" xml:space="preserve"><value>顯示 5 小時額度</value></data>
+  <data name="Settings_DisplayedLimit_FiveHourUnavailable" xml:space="preserve"><value>Codex 沒有回傳此帳戶的整體 5 小時額度。</value></data>
+  <data name="Settings_DisplayedLimit_WeeklyDescription" xml:space="preserve"><value>顯示帳戶整體每週額度窗口</value></data>
+  <data name="Settings_DisplayedLimit_WeeklyAutomation" xml:space="preserve"><value>顯示每週額度</value></data>
+  <data name="Settings_DisplayedLimit_MostConstrained" xml:space="preserve"><value>剩餘額度最低</value></data>
+  <data name="Settings_DisplayedLimit_MostConstrainedDescription" xml:space="preserve"><value>顯示目前剩餘百分比最低的額度限制</value></data>
+  <data name="Settings_DisplayedLimit_MostConstrainedAutomation" xml:space="preserve"><value>顯示剩餘額度最低的限制</value></data>
+  <data name="Settings_SectionFeatures" xml:space="preserve"><value>功能</value></data>
+  <data name="Settings_Language_Title" xml:space="preserve"><value>語言</value></data>
+  <data name="Settings_Language_Description" xml:space="preserve"><value>選擇英文、簡體中文或繁體中文，也可以跟隨 Windows 系統語言。</value></data>
+  <data name="Settings_Language_System" xml:space="preserve"><value>跟隨 Windows</value></data>
+  <data name="Settings_Language_SystemDescription" xml:space="preserve"><value>Windows 使用支援的中文語系時自動切換，否則使用英文。</value></data>
+  <data name="Settings_Language_SystemAutomation" xml:space="preserve"><value>跟隨 Windows 顯示語言</value></data>
+  <data name="Settings_Language_English" xml:space="preserve"><value>English</value></data>
+  <data name="Settings_Language_EnglishDescription" xml:space="preserve"><value>一律使用英文</value></data>
+  <data name="Settings_Language_EnglishAutomation" xml:space="preserve"><value>使用英文</value></data>
+  <data name="Settings_Language_Chinese" xml:space="preserve"><value>簡體中文</value></data>
+  <data name="Settings_Language_ChineseDescription" xml:space="preserve"><value>一律使用簡體中文</value></data>
+  <data name="Settings_Language_ChineseAutomation" xml:space="preserve"><value>使用簡體中文</value></data>
+  <data name="Settings_TimeFormat_Title" xml:space="preserve"><value>時間格式</value></data>
+  <data name="Settings_TimeFormat_Description" xml:space="preserve"><value>選擇小工具中時間的顯示方式。</value></data>
+  <data name="Settings_TimeFormat_Automatic" xml:space="preserve"><value>跟隨 Windows</value></data>
+  <data name="Settings_TimeFormat_AutomaticDescription" xml:space="preserve"><value>使用 Windows 地區時間格式</value></data>
+  <data name="Settings_TimeFormat_AutomaticAutomation" xml:space="preserve"><value>使用 Windows 時間格式</value></data>
+  <data name="Settings_TimeFormat_TwentyFourHour" xml:space="preserve"><value>24 小時制</value></data>
+  <data name="Settings_TimeFormat_TwentyFourHourDescription" xml:space="preserve"><value>以 14:05 等格式顯示時間</value></data>
+  <data name="Settings_TimeFormat_TwentyFourHourAutomation" xml:space="preserve"><value>使用 24 小時制</value></data>
+  <data name="Settings_TimeFormat_TwelveHour" xml:space="preserve"><value>12 小時制</value></data>
+  <data name="Settings_TimeFormat_TwelveHourDescription" xml:space="preserve"><value>以 下午 2:05 等格式顯示時間</value></data>
+  <data name="Settings_TimeFormat_TwelveHourAutomation" xml:space="preserve"><value>使用 12 小時制</value></data>
+  <data name="Activity_Title" xml:space="preserve"><value>Codex 執行狀態</value></data>
+  <data name="Activity_Description" xml:space="preserve"><value>Codex 在本機執行任務時顯示狀態指示點</value></data>
+  <data name="Activity_Privacy" xml:space="preserve"><value>隱私說明：只有事件類型、工作階段 ID 與任務 ID 會透過目前使用者專屬的本機管道傳送。提示詞與回覆內容都會保留在 Codex 中。</value></data>
+  <data name="Activity_RemoveHooks" xml:space="preserve"><value>移除掛鉤</value></data>
+  <data name="Activity_CopyHooksTooltip" xml:space="preserve"><value>複製 /hooks 並開啟 Codex</value></data>
+  <data name="Activity_Checking" xml:space="preserve"><value>正在檢查 Codex…</value></data>
+  <data name="Activity_CheckingDescription" xml:space="preserve"><value>正在讀取本機掛鉤配置和 Codex 信任狀態。</value></data>
+  <data name="Activity_OpenInCodex" xml:space="preserve"><value>在 Codex 中開啟</value></data>
+  <data name="Activity_ReviewHooks" xml:space="preserve"><value>檢查掛鉤</value></data>
+  <data name="Activity_SetupRequired" xml:space="preserve"><value>需要設定</value></data>
+  <data name="Activity_SetupRequiredDescription" xml:space="preserve"><value>安裝三個本機生命週期掛鉤，以便 Codex 工作時顯示工作列狀態點。寫入前可以檢查 hooks.json 的確切改動。</value></data>
+  <data name="Activity_UpdateAvailable" xml:space="preserve"><value>有可用更新</value></data>
+  <data name="Activity_UpdateDescription" xml:space="preserve"><value>已安裝舊版小工具的活動處理程式。檢查確切改動後，可將其更新為更快且不依賴路徑的橋接程式。</value></data>
+  <data name="Activity_ReviewUpdate" xml:space="preserve"><value>檢查更新</value></data>
+  <data name="Activity_OneStepLeft" xml:space="preserve"><value>還差一步</value></data>
+  <data name="Activity_ApprovalDescription" xml:space="preserve"><value>掛鉤已安裝。需要在 Codex 中批准一次確切定義，掛鉤才能執行。</value></data>
+  <data name="Activity_ApproveInCodex" xml:space="preserve"><value>在 Codex 中批准</value></data>
+  <data name="Activity_Ready" xml:space="preserve"><value>執行狀態指示點已就緒</value></data>
+  <data name="Activity_ReadyDescription" xml:space="preserve"><value>三個掛鉤均已安裝並受信任。</value></data>
+  <data name="Activity_ReviewRequired" xml:space="preserve"><value>需要檢查</value></data>
+  <data name="Activity_ModifiedDescription" xml:space="preserve"><value>Codex 已暫停改動過的定義。請重新檢查，活動報告隨後會恢復。</value></data>
+  <data name="Activity_ReviewInCodex" xml:space="preserve"><value>在 Codex 中檢查</value></data>
+  <data name="Activity_HooksDisabled" xml:space="preserve"><value>Codex 中的掛鉤已禁用</value></data>
+  <data name="Activity_HooksDisabledDescription" xml:space="preserve"><value>安裝前，請在 Codex 配置的 [features] 部分設定 hooks = true。</value></data>
+  <data name="Activity_StatusUnavailable" xml:space="preserve"><value>已安裝 · 狀態不可用</value></data>
+  <data name="Activity_StatusUnavailableDescription" xml:space="preserve"><value>掛鉤已安裝，但無法驗證其信任狀態。</value></data>
+  <data name="Activity_StatusUnavailableWithDetail" xml:space="preserve"><value>掛鉤已安裝，但 Codex 無法回傳其信任狀態。{0}</value></data>
+  <data name="Activity_OpenHooksInCodex" xml:space="preserve"><value>在 Codex 中開啟掛鉤</value></data>
+  <data name="Activity_SetupUnavailable" xml:space="preserve"><value>設定不可用</value></data>
+  <data name="Activity_SetupUnavailableDescription" xml:space="preserve"><value>無法讀取活動掛鉤配置。</value></data>
+  <data name="Activity_SetupErrorDetail" xml:space="preserve"><value>無法完成活動掛鉤設定。{0}</value></data>
+  <data name="Activity_StatusTimeout" xml:space="preserve"><value>Codex 未及時回傳掛鉤狀態。請檢查 CLI 是否可用，然後重試。</value></data>
+  <data name="Activity_CodexOpenCopied" xml:space="preserve"><value>Codex 已開啟。請貼上 /hooks 並批准三個定義。回傳此處時會重新整理狀態。</value></data>
+  <data name="Activity_CodexOpenType" xml:space="preserve"><value>Codex 已開啟。請輸入 /hooks 並批准三個定義。回傳此處時會重新整理狀態。</value></data>
+  <data name="Activity_ReviewTitle" xml:space="preserve"><value>檢查 Codex 活動掛鉤</value></data>
+  <data name="Activity_ReviewInstallHeading" xml:space="preserve"><value>檢查活動掛鉤安裝</value></data>
+  <data name="Activity_ReviewRemoveHeading" xml:space="preserve"><value>檢查活動掛鉤移除</value></data>
+  <data name="Activity_ReviewInstallDescription" xml:space="preserve"><value>小工具將寫入以下確切的 ~/.codex/hooks.json 內容。現有掛鉤和未知欄位會保留。</value></data>
+  <data name="Activity_ReviewRemoveDescription" xml:space="preserve"><value>只會移除與此小工具可執行文件完全相符的處理程式。其他掛鉤定義會保留。</value></data>
+  <data name="Activity_InstallHooks" xml:space="preserve"><value>安裝掛鉤</value></data>
+  <data name="Activity_CommandAlreadyInstalled" xml:space="preserve"><value>活動掛鉤已安裝。</value></data>
+  <data name="Activity_CommandNoMatching" xml:space="preserve"><value>未找到已安裝的相符活動掛鉤。</value></data>
+  <data name="Activity_CommandProposed" xml:space="preserve"><value>擬寫入的 ~/.codex/hooks.json：</value></data>
+  <data name="Activity_CommandApplyPrompt" xml:space="preserve"><value>應用此更改？[y/N] </value></data>
+  <data name="Activity_CommandNoChanges" xml:space="preserve"><value>未進行任何更改。</value></data>
+  <data name="Activity_CommandInstalled" xml:space="preserve"><value>活動掛鉤已安裝。請使用 /hooks 檢查並信任確切定義。</value></data>
+  <data name="Activity_CommandRemoved" xml:space="preserve"><value>已移除相符的活動掛鉤。</value></data>
+  <data name="Activity_CommandFailure" xml:space="preserve"><value>活動掛鉤配置失敗：{0}</value></data>
+  <data name="Tray_Open" xml:space="preserve"><value>開啟</value></data>
+  <data name="Tray_Settings" xml:space="preserve"><value>設定...</value></data>
+  <data name="Tray_DisplayMode" xml:space="preserve"><value>顯示模式</value></data>
+  <data name="Tray_DesktopWidget" xml:space="preserve"><value>桌面小工具</value></data>
+  <data name="Tray_TaskbarLabel" xml:space="preserve"><value>工作列標籤</value></data>
+  <data name="Tray_CheckUpdates" xml:space="preserve"><value>檢查更新...</value></data>
+  <data name="Tray_Unavailable" xml:space="preserve"><value>Codex 額度 · 暫時無法取得</value></data>
+  <data name="Tray_Remaining" xml:space="preserve"><value>Codex · 剩餘 {0}%</value></data>
+  <data name="Taskbar_OpenWidget" xml:space="preserve"><value>開啟小工具</value></data>
+  <data name="Taskbar_PreviewActivity" xml:space="preserve"><value>預覽活動動畫</value></data>
+  <data name="Taskbar_UseDesktopWidget" xml:space="preserve"><value>使用桌面小工具</value></data>
+  <data name="Taskbar_UsageUnavailable" xml:space="preserve"><value>目前無法取得 Codex 額度。</value></data>
+  <data name="Taskbar_Remaining" xml:space="preserve"><value>{0}：剩餘 {1}%</value></data>
+  <data name="Taskbar_RemainingWithReset" xml:space="preserve"><value>{0}：剩餘 {1}% · {2} 重置</value></data>
+  <data name="Settings_Language_TraditionalChinese" xml:space="preserve"><value>繁體中文（台灣）</value></data>
+  <data name="Settings_Language_TraditionalChineseDescription" xml:space="preserve"><value>一律使用繁體中文</value></data>
+  <data name="Settings_Language_TraditionalChineseAutomation" xml:space="preserve"><value>使用繁體中文</value></data>
+</root>

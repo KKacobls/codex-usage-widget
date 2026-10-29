@@ -21,6 +21,7 @@ public sealed class LanguagePreferenceStoreTests : IDisposable
     [InlineData("system", LanguagePreference.System)]
     [InlineData("english", LanguagePreference.English)]
     [InlineData("simplified-chinese", LanguagePreference.SimplifiedChinese)]
+    [InlineData("traditional-chinese", LanguagePreference.TraditionalChinese)]
     [InlineData("SIMPLIFIED-CHINESE", LanguagePreference.SimplifiedChinese)]
     [InlineData("unknown", LanguagePreference.System)]
     public void LoadParsesStableValueOrFallsBackToSystem(
@@ -38,6 +39,7 @@ public sealed class LanguagePreferenceStoreTests : IDisposable
     [InlineData(LanguagePreference.System, "system")]
     [InlineData(LanguagePreference.English, "english")]
     [InlineData(LanguagePreference.SimplifiedChinese, "simplified-chinese")]
+    [InlineData(LanguagePreference.TraditionalChinese, "traditional-chinese")]
     public void SavePersistsStablePreferenceValue(
         LanguagePreference preference,
         string expectedValue)

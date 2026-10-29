@@ -8,10 +8,10 @@ public sealed class LanguagePreferenceResolverTests
     [Theory]
     [InlineData("en-US", LanguagePreference.English)]
     [InlineData("fr-FR", LanguagePreference.English)]
-    [InlineData("zh-TW", LanguagePreference.English)]
-    [InlineData("zh-HK", LanguagePreference.English)]
-    [InlineData("zh-MO", LanguagePreference.English)]
-    [InlineData("zh-Hant", LanguagePreference.English)]
+    [InlineData("zh-TW", LanguagePreference.TraditionalChinese)]
+    [InlineData("zh-HK", LanguagePreference.TraditionalChinese)]
+    [InlineData("zh-MO", LanguagePreference.TraditionalChinese)]
+    [InlineData("zh-Hant", LanguagePreference.TraditionalChinese)]
     [InlineData("zh-CN", LanguagePreference.SimplifiedChinese)]
     [InlineData("zh-SG", LanguagePreference.SimplifiedChinese)]
     [InlineData("zh-Hans", LanguagePreference.SimplifiedChinese)]
@@ -29,6 +29,8 @@ public sealed class LanguagePreferenceResolverTests
     [Theory]
     [InlineData(LanguagePreference.English, "zh-CN")]
     [InlineData(LanguagePreference.SimplifiedChinese, "en-US")]
+    [InlineData(LanguagePreference.TraditionalChinese, "en-US")]
+    [InlineData(LanguagePreference.TraditionalChinese, "zh-CN")]
     public void ResolveExplicitPreferenceOverridesWindowsCulture(
         LanguagePreference preference,
         string cultureName)
